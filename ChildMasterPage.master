@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/ParentMasterPage.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+</asp:ContentPlaceHolder>
+
+<asp:Label runat="server" ID="lbmessage" Text="We care for our customers." ForeColor="Black" Font-Bold="true" Font-Italic="true" Font-Underline="true">
+</asp:Label>
+
+</asp:Content>
+
